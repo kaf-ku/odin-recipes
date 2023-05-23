@@ -1,0 +1,44 @@
+html,
+body {
+    font-family: monospace, sans-serif, times;
+    background-size:cover;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+div.box {
+    position: relative;
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 100%;
+    border-width: 2px;
+    border-color: rgb(143, 52, 52);
+    border-style: double;
+    border-top: 0;
+    color: rgb(90, 33, 33);
+}
+
+div.txt {
+    padding: 100px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+ul {
+    text-align: justify;
+}
+
+hr {
+    border: 1px solid rgb(90, 33, 33);
+    margin-top: 4em;
+    width: 50%;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 36%;
+}
