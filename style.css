@@ -33,6 +33,7 @@ div, li, p {
     z-index: -1;
     opacity: 85%;
     left: 50%;
+    bottom: -55px;
 }
 
 .content {
@@ -59,10 +60,6 @@ div, li, p {
 
 a,ul,h1 {
     color: rgba(39, 5, 10, 0.76);
-}
-
-h1{
-    color: linear-gradient(to left, rgba(39, 5, 10, 0.76), rgba(500, 240, 39, 0.76));
 }
 
 li{
