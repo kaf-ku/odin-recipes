@@ -31,6 +31,16 @@ div, li, p {
     justify-content: center;
 }
 
+.burger {
+    position: absolute;
+    z-index: -1;
+    opacity: 20%;
+    height: 1080;
+    width: auto;
+    left: -680px;
+    top: -150px;
+}
+
 #header {
     display: flex;
     align-items: center;
@@ -73,7 +83,7 @@ div, li, p {
     filter: drop-shadow(8px 1px 0.4rem  #e2242459)
 }
 
-img {
+.img img {
     border-radius: 20px;
     height: 600px;
     width: auto;
