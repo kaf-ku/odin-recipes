@@ -31,24 +31,6 @@ div, li, p {
     justify-content: center;
 }
 
-.burger {
-    position: absolute;
-    z-index: -1;
-    opacity: 20%;
-    height: 1080;
-    width: auto;
-    left: -680px;
-    top: -150px;
-}
-
-#header {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    padding: 70px 100px;
-}
-
 .text {
     padding-left: 70px ;
 }
@@ -62,8 +44,15 @@ div, li, p {
 
 .text-info {
     max-width: 900px;
-    height: 700px;
+    max-height: 450px;
     text-align: justify;
+    padding-left: 50px;
+    direction: rtl;
+    overflow: auto;
+}
+
+.text-info * {
+    direction: ltr;
 }
 
 .visual {
@@ -124,88 +113,3 @@ div, li, p {
 .footer a:hover{
     transform: scale(1.15);
 }
-
-
-/* #page-one {
-    display: flex; 
-    border: 2px solid black; 
-    padding:0;
-    margin:0;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;   
-}
-
-img {
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 10px;
-    height: 800px;
-    width: auto;
-    margin-right: 100px;
-}
-
-.page-two {
-    display: flex;
-} */
-
-/* html,
-body {
-    font-family: monospace, sans-serif, times;
-    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220209/pngtree-aesthetic-fluid-wallpaper-with-a-blend-of-pastel-and-green-colors-image_985923.jpg');
-    background-size: cover;
-    height: 100%;
-    margin: 0;
-    color: rgb(90, 33, 33);
-}
-
-.container {
-    position: fixed;
-    background-color: pink;
-    border-width: 2px;
-    border-color: rgb(143, 52, 52);
-    border-style: double;
-    border-right: 0;
-    border-left: 0;
-    padding-left: 70px;
-    padding-top: 50px;
-    padding-right: 50px;
-    margin-top: 105px;
-    height: 500px;
-    max-width: 976px;
-    word-wrap: break-word;
-    overflow: hidden;
-}
-
-#header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: underline;
-}
-
-.title {
-    display: inline-block;
-}
-
-.title.food {
-    margin-right: 1190px;
-}
-
-.title.link {
-    padding-left: 30px;
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    border-width: 2px;
-    border-color: rgb(133, 157, 163);
-    border-style: double;    
-}
-
-img {
-    position: fixed;
-    align-items: center;
-    right: 0;
-    border-radius: 10px;
-} */
